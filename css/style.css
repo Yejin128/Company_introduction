@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+}
+.header{
+    position: relative;
+    top:0px;
+    width:100%;
+    /* 최소환의 width 길이 설정 */
+    min-width: 1280px;
+    /* 내 화면의 5% 정도 */
+    height:5vh;
+    background-color:brown;
+}
+.header .nav{
+    position: relative;
+    top:0px;
+    width:1280px;
+    
+    /* 가운데로 설정 */
+    margin:0px auto; 
+    height: 100%;
+    background-color:white;
+
+}
+.header .nav .menu1{
+    position: relative;
+    float:left;
+    top:9px;
+    width:180px;
+    cursor: pointer;
+}
+.header .nav .menu2{
+    position: relative;
+    float:left;
+    top:9px;
+    width:140px;
+    cursor: pointer;
+
+}
+.header .nav .menu3{
+    position: relative;
+    float:left;
+    top:9px;
+    width:140px;
+    cursor: pointer;
+
+}
+.header .nav .menu4{
+    position: relative;
+    float:left;    
+    top:9px;
+    width:140px;
+    cursor: pointer;
+
+}
+.header .nav .menu5{
+    position: relative;
+    float:left;
+    top:9px;
+    width:140px;
+    cursor: pointer;
+
+}
+.main{
+    position: relative;
+    top:0px;
+    width:100%;
+    min-width: 1280px;
+    margin:0px auto;
+    height:90vh;
+    background-color:rgb(240,240,240);
+}
+.main .section1{
+    position: relative;
+    top:100px;
+    width:1100px;
+    margin:0px auto;
+    height:500px;;
+}
+.main .section1 .img1{
+    width: 1100px;
+    height:500px;
+}
+.footer{
+    position: relative;
+    top:0px;
+    width:100%;
+    min-width: 1280px;
+
+    height:5vh;
+    background-color:black;
+}
